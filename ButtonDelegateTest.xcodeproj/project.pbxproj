@@ -19,6 +19,11 @@
 		4FDC90F319AEF97400EC17BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDC90DB19AEF97400EC17BC /* UIKit.framework */; };
 		4FDC90FB19AEF97400EC17BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC90F919AEF97400EC17BC /* InfoPlist.strings */; };
 		4FDC90FD19AEF97400EC17BC /* ButtonDelegateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC90FC19AEF97400EC17BC /* ButtonDelegateTestTests.m */; };
+		4FDC910919AEF9AD00EC17BC /* KLBBattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC910719AEF9AD00EC17BC /* KLBBattleViewController.m */; };
+		4FDC910A19AEF9AD00EC17BC /* KLBBattleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC910819AEF9AD00EC17BC /* KLBBattleViewController.xib */; };
+		4FDC910D19AEFCD500EC17BC /* KLBAttackUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC910C19AEFCD500EC17BC /* KLBAttackUIButton.m */; };
+		4FDC910F19AEFD1400EC17BC /* KLBAttackUIButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC910E19AEFD1400EC17BC /* KLBAttackUIButton.xib */; };
+		4FDC911119AEFD2B00EC17BC /* attackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC911019AEFD2B00EC17BC /* attackbutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		4FDC90F819AEF97400EC17BC /* ButtonDelegateTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonDelegateTestTests-Info.plist"; sourceTree = "<group>"; };
 		4FDC90FA19AEF97400EC17BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FDC90FC19AEF97400EC17BC /* ButtonDelegateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonDelegateTestTests.m; sourceTree = "<group>"; };
+		4FDC910619AEF9AD00EC17BC /* KLBBattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBBattleViewController.h; sourceTree = "<group>"; };
+		4FDC910719AEF9AD00EC17BC /* KLBBattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBBattleViewController.m; sourceTree = "<group>"; };
+		4FDC910819AEF9AD00EC17BC /* KLBBattleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLBBattleViewController.xib; sourceTree = "<group>"; };
+		4FDC910B19AEFCD500EC17BC /* KLBAttackUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBAttackUIButton.h; sourceTree = "<group>"; };
+		4FDC910C19AEFCD500EC17BC /* KLBAttackUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBAttackUIButton.m; sourceTree = "<group>"; };
+		4FDC910E19AEFD1400EC17BC /* KLBAttackUIButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLBAttackUIButton.xib; sourceTree = "<group>"; };
+		4FDC911019AEFD2B00EC17BC /* attackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attackbutton.png; sourceTree = "<group>"; };
+		4FEC6DA519AF00F800C9DAA8 /* KLBAttackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBAttackDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +120,18 @@
 		4FDC90DD19AEF97400EC17BC /* ButtonDelegateTest */ = {
 			isa = PBXGroup;
 			children = (
+				4FDC911019AEFD2B00EC17BC /* attackbutton.png */,
 				4FDC90E619AEF97400EC17BC /* KLBAppDelegate.h */,
 				4FDC90E719AEF97400EC17BC /* KLBAppDelegate.m */,
 				4FDC90E919AEF97400EC17BC /* Images.xcassets */,
 				4FDC90DE19AEF97400EC17BC /* Supporting Files */,
+				4FDC910619AEF9AD00EC17BC /* KLBBattleViewController.h */,
+				4FDC910719AEF9AD00EC17BC /* KLBBattleViewController.m */,
+				4FDC910819AEF9AD00EC17BC /* KLBBattleViewController.xib */,
+				4FDC910E19AEFD1400EC17BC /* KLBAttackUIButton.xib */,
+				4FDC910B19AEFCD500EC17BC /* KLBAttackUIButton.h */,
+				4FDC910C19AEFCD500EC17BC /* KLBAttackUIButton.m */,
+				4FEC6DA519AF00F800C9DAA8 /* KLBAttackDelegate.h */,
 			);
 			path = ButtonDelegateTest;
 			sourceTree = "<group>";
@@ -220,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDC911119AEFD2B00EC17BC /* attackbutton.png in Resources */,
+				4FDC910A19AEF9AD00EC17BC /* KLBBattleViewController.xib in Resources */,
+				4FDC910F19AEFD1400EC17BC /* KLBAttackUIButton.xib in Resources */,
 				4FDC90E219AEF97400EC17BC /* InfoPlist.strings in Resources */,
 				4FDC90EA19AEF97400EC17BC /* Images.xcassets in Resources */,
 			);
@@ -241,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FDC90E819AEF97400EC17BC /* KLBAppDelegate.m in Sources */,
+				4FDC910D19AEFCD500EC17BC /* KLBAttackUIButton.m in Sources */,
 				4FDC90E419AEF97400EC17BC /* main.m in Sources */,
+				4FDC910919AEF9AD00EC17BC /* KLBBattleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +464,7 @@
 				4FDC910219AEF97400EC17BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FDC910319AEF97400EC17BC /* Build configuration list for PBXNativeTarget "ButtonDelegateTestTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +473,7 @@
 				4FDC910519AEF97400EC17BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
